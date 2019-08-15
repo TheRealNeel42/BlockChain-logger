@@ -1,0 +1,27 @@
+{
+  "name": "logviewer",
+  "version": "0.1.0",
+  "dependencies": {
+    "@material-ui/core": "^4.3.0",
+    "@material-ui/icons": "^4.2.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-parallax": "^2.2.0",
+    "react-scripts": "3.0.1",
+    "react-scroll-parallax": "^2.1.2",
+    "styled-components": "^4.3.2",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4"
+  },
+  "scripts": {
+    "client": "cd client && npm start",
+    "server": "nodemon server.js",
+    "dev": "concurrently --kill-others-on-fail \"npm server\" \"npm client\""
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "devDependencies": {
+    "concurrently": "^4.0.1"
+  }
+}
